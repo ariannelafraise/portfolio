@@ -21,6 +21,6 @@ They update their data every year during Spring.
 Links: [boy names](https://donneesquebec.ca/recherche/fr/dataset/banque-de-prenoms-garcons), [girl names](https://donneesquebec.ca/recherche/fr/dataset/banque-de-prenoms-filles)
 
 ## Pictures
-![login page screenshot](assets/media/shark-names-you/login-page.png)
+![login page screenshot]({{"assets/media/shark-names-you/login-page.png" | relative_url}})
 
-![home page screenshot](assets/media/shark-names-you/home-page.png)
+![home page screenshot]({{"assets/media/shark-names-you/home-page.png" | relative_url}})

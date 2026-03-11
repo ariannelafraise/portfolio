@@ -1,8 +1,9 @@
-$background-color: #222831;
-$secondary-color: #31363f;
 $primary-color: #e491c9;
 $primary-color-hover: #cf82b6;
-$foreground-color: #eeeeee;
+$foreground-color: #ffffff;
+$card-border-color: rgba(230, 230, 230, 0.1);
+$card-color: rgba(230, 230, 230, 0.15);
+$card-hover-color: rgba(0, 0, 0, 0.15);
 
 @font-face {
     font-family: "Tangerine";
@@ -15,9 +16,6 @@ $foreground-color: #eeeeee;
     margin-top: 0;
 }
 
-#name:hover {
-}
-
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -25,10 +23,12 @@ nav ul {
     overflow: hidden;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .nav-item {
     text-align: center;
+    margin-top: 0;
     margin-bottom: auto;
     padding: 1rem;
 }
@@ -46,17 +46,7 @@ nav ul {
     color: $primary-color-hover;
 }
 
-@media screen and (max-width: 500px) {
-    nav ul {
-        flex-direction: column;
-    }
-
-    .nav-item {
-        margin-top: 0;
-    }
-}
-
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 601px) {
     nav ul {
         flex-direction: row;
     }

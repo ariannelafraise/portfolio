@@ -1,13 +1,14 @@
-$background-color: #2f5249;
-$secondary-color: #31363f;
 $primary-color: #e491c9;
-$foreground-color: #eeeeee;
+$primary-color-hover: #cf82b6;
+$foreground-color: #ffffff;
+$card-border-color: rgba(230, 230, 230, 0.1);
+$card-color: rgba(230, 230, 230, 0.15);
+$card-hover-color: rgba(0, 0, 0, 0.15);
 
 @use "navigation";
 @use "card";
 @use "article";
 @use "footer";
-@use "about-me";
 
 @font-face {
     font-family: "Roboto";
@@ -19,15 +20,12 @@ $foreground-color: #eeeeee;
     src: url("../fonts/Cormorant/Cormorant-VariableFont_wght.ttf");
 }
 
-:root {
-    font-family: "Roboto", sans-serif;
-}
-
 ::selection {
     background: $primary-color;
 }
 
 body {
+    font-family: "Roboto", sans-serif;
     margin: 0;
     background: #731f64;
     background: linear-gradient(
@@ -41,27 +39,28 @@ body {
     color: $foreground-color;
 }
 
+a,
 a:visited {
-    color: $foreground-color;
-}
-
-a {
     color: $foreground-color;
     text-decoration: none;
 }
 
-@media screen and (min-width: 1200px) {
+.section-title {
+    font-family: "Cormorant", sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+@media screen and (min-width: 601px) {
     .section-title {
-        font-family: "Cormorant", sans-serif;
         margin-left: 2rem;
         font-size: 6em;
     }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 1200px) {
     .section-title {
-        font-family: "Cormorant", sans-serif;
-        font-size: 3em;
-        text-align: center;
+        margin-left: 2rem;
+        font-size: 6em;
     }
 }

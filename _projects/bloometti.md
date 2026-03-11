@@ -7,7 +7,6 @@ image: /assets/media/bloometti/discord.jpg
 ---
 ![bloometti logo]({{"/assets/media/bloometti/bloometti.png" | relative_url}})
 
-
 **Currently taken down for maintenance.**
 
 [Github repository](https://github.com/ariannelafraise/Bloometti)
