@@ -16,14 +16,14 @@ $card-hover-color: rgba(0, 0, 0, 0.15);
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
     .cards-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1500px) {
     .cards-list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
