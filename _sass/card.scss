@@ -1,0 +1,53 @@
+$background-color: #222831;
+$secondary-color: #31363f;
+$primary-color: #034696;
+$foreground-color: #eeeeee;
+$card-border-color: rgba(230, 230, 230, 0.1);
+$card-color: rgba(230, 230, 230, 0.15);
+
+.card-subcontainer {
+    padding: 1rem;
+}
+
+.cards-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    border: 0.15rem solid $card-border-color;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    overflow: hidden;
+    background-color: $card-color;
+    transition: box-shadow 300ms ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+    transition: box-shadow 300ms ease-in-out;
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.card-title {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0;
+    border-bottom: 0.15rem solid $card-border-color;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.card-content {
+    padding: 1rem;
+    padding-top: 0;
+}

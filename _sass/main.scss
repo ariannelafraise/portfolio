@@ -1,0 +1,33 @@
+$background-color: #222831;
+$secondary-color: #31363f;
+$primary-color: #e491c9;
+$foreground-color: #eeeeee;
+
+@use "navigation";
+@use "card";
+@use "article";
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto-VariableFont.ttf");
+}
+
+:root {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #4f134e;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: $foreground-color;
+}
+
+a:visited {
+    color: $foreground-color;
+}
+
+a {
+    text-decoration: none;
+}

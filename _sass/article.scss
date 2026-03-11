@@ -1,0 +1,22 @@
+$background-color: #222831;
+$secondary-color: #31363f;
+$primary-color: #034696;
+$foreground-color: #eeeeee;
+$card-border-color: rgba(230, 230, 230, 0.1);
+$card-color: rgba(230, 230, 230, 0.15);
+
+.article-container {
+    border: 0.15rem solid $card-border-color;
+    margin: 3rem;
+    padding: 1.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0.5rem;
+    background-color: $card-color;
+}
+
+.article-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1em;
+}

@@ -1,0 +1,33 @@
+$background-color: #222831;
+$secondary-color: #31363f;
+$primary-color: #e491c9;
+$foreground-color: #eeeeee;
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-item {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+}
+
+.nav-item {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+.nav-active-link {
+    color: $primary-color;
+}
+
+.nav-active-link:visited {
+    color: $primary-color;
+}
