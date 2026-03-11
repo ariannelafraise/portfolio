@@ -3,7 +3,7 @@ id: "shark-names-you"
 title: "Shark Names You"
 description: "A web application to help transgender individuals find a new name."
 priority: 4
-image: /assets/media/shark-names-you/home-page.png
+image: assets/media/shark-names-you/home-page.png
 ---
 # Shark Names You
 
@@ -21,6 +21,6 @@ They update their data every year during Spring.
 Links: [boy names](https://donneesquebec.ca/recherche/fr/dataset/banque-de-prenoms-garcons), [girl names](https://donneesquebec.ca/recherche/fr/dataset/banque-de-prenoms-filles)
 
 ## Pictures
-![login page screenshot](/assets/media/shark-names-you/login-page.png)
+![login page screenshot](assets/media/shark-names-you/login-page.png)
 
-![home page screenshot](/assets/media/shark-names-you/home-page.png)
+![home page screenshot](assets/media/shark-names-you/home-page.png)

@@ -2,13 +2,13 @@
     <div>
         <ul>
             <li class="nav-item" id="name">
-                <a id="name" href="/">Arianne</a>
+                <a id="name" href="{{"/" | relative_url "}}">Arianne</a>
             </li>
             {% for item in site.data.navigation %}
             <li class="nav-item">
                 <a
                     class="{% if page.url == item.link + ".html" %}nav-active-link{% endif %}"
-                    href="{{item.link}}"
+                    href="{{item.link | relative_url}}"
                 >
                     {{ item.name }}
                 </a>

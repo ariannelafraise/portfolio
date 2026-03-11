@@ -5,7 +5,8 @@ description: A Discord bot made with Discord.js to implement a levels system.
 priority: 1
 image: /assets/media/bloometti/discord.jpg
 ---
-<img alt="bloometti logo" src="/assets/media/bloometti/bloometti.png" />
+![bloometti logo]({{"/assets/media/bloometti/bloometti.png" | relative_url}})
+
 
 **Currently taken down for maintenance.**
 
@@ -16,4 +17,4 @@ A Discord bot made with Discord.js to implement a levels system.
 [Add it to your Discord server](https://discord.com/oauth2/authorize?client_id=486158492026142725&permissions=139586816000&integration_type=0&scope=bot+applications.commands)
 
 ## Pictures
-![bloometti in action](/assets/media/bloometti/in-action.png)
+![bloometti in action]({{"/assets/media/bloometti/in-action.png" | relative_url}})
