@@ -1,0 +1,16 @@
+<h1 class="section-title">BLOG</h1>
+
+<section class="cards-list">
+    {% for post in site.posts %}
+    <div class="card">
+        <a href="{{post.url}}">
+            <img src="{{post.image}}" alt="{{post.title}}" />
+            <h1 class="card-title">{{post.title}}</h1>
+            <div class="card-content">
+                <p>{{post.introduction}}</p>
+            </div>
+            <p class="card-footer">{{ post.date | date: "%Y-%m-%d" }}</p>
+        </a>
+    </div>
+    {% endfor %}
+</section>

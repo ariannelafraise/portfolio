@@ -1,3 +1,5 @@
+permalink: pretty
+
 collections:
   projects:
     output: true
@@ -7,7 +9,12 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "project"
+      layout: "article"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "article"
   - scope:
       path: ""
     values:

@@ -1,8 +1,6 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.html
-- name: Blog
-  link: /blog.html
+- name: GitHub
+  link: https://github.com/ariannelafraise
 - name: Projects
-  link: /projects.html
+  link: /projects/
+- name: Posts
+  link: /posts/

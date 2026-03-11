@@ -1,6 +1,7 @@
 $background-color: #222831;
 $secondary-color: #31363f;
-$primary-color: #034696;
+$primary-color: #e491c9;
+$primary-color-hover: #cf82b6;
 $foreground-color: #eeeeee;
 $card-border-color: rgba(230, 230, 230, 0.1);
 $card-color: rgba(230, 230, 230, 0.15);
@@ -19,4 +20,26 @@ $card-color: rgba(230, 230, 230, 0.15);
     max-width: 100%;
     height: auto;
     border-radius: 1em;
+}
+
+.article-container a,
+.article-container a:visited {
+    color: $primary-color;
+}
+
+.article-container a:hover {
+    color: $primary-color-hover;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1199px) {
+    .article-container img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .article-container img {
+        max-width: 50%;
+    }
 }

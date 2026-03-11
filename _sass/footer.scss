@@ -9,16 +9,15 @@ $foreground-color: #eeeeee;
     src: url("../fonts/Tangerine/Tangerine-Regular.ttf");
 }
 
-#name {
-    font-family: "Tangerine", sans-serif;
-    font-size: 5rem;
-    margin-top: 0;
+footer p {
+    text-align: center;
 }
 
-#name:hover {
+footer {
+    margin-top: 10rem;
 }
 
-nav ul {
+footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,41 +26,32 @@ nav ul {
     align-items: center;
 }
 
-.nav-item {
+.footer-item {
     text-align: center;
     margin-bottom: auto;
     padding: 1rem;
 }
 
-.nav-item a:hover {
+.footer-item a:hover {
     color: $primary-color;
-}
-
-.nav-active-link,
-.nav-active-link:visited {
-    color: $primary-color;
-}
-
-.nav-active-link:hover {
-    color: $primary-color-hover;
 }
 
 @media screen and (max-width: 500px) {
-    nav ul {
+    footer ul {
         flex-direction: column;
     }
 
-    .nav-item {
+    .footer-item {
         margin-top: 0;
     }
 }
 
 @media screen and (min-width: 501px) {
-    nav ul {
+    footer ul {
         flex-direction: row;
     }
 
-    .nav-item {
+    .footer-item {
         margin-top: 3rem;
     }
 }

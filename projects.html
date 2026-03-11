@@ -3,16 +3,4 @@ layout: default
 title: Projects
 ---
 
-<div class="cards-list">
-    {% for project in site.projects %}
-    <div class="card">
-        <a href="{{project.url}}">
-            <img src="/assets/media/wallpaper.png" alt="{{project.title}}" />
-            <h1 class="card-title">{{project.title}}</h1>
-            <div class="card-content">
-                <p>{{project.description}}</p>
-            </div>
-        </a>
-    </div>
-    {% endfor %}
-</div>
+{% include projects.html %}

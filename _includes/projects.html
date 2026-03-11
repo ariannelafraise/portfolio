@@ -1,0 +1,16 @@
+<h1 class="section-title">PORTFOLIO</h1>
+
+<section class="cards-list">
+    {% assign sorted_projects = site.projects | sort: "priority" | reverse %} {%
+    for project in sorted_projects | sort "priority" %}
+    <div class="card">
+        <a href="{{project.url}}">
+            <img src="{{project.image}}" alt="{{project.title}}" />
+            <h1 class="card-title">{{project.title}}</h1>
+            <div class="card-content">
+                <p>{{project.description}}</p>
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+</section>
