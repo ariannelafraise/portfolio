@@ -2,18 +2,7 @@
 
 <section class="cards-list">
     {% assign sorted_projects = site.projects | sort: "priority" | reverse %} {%
-    for project in sorted_projects | sort "priority" %}
-    <div class="card">
-        <a href="{{project.url | relative_url}}">
-            <img
-                src="{{project.image | relative_url}}"
-                alt="{{project.title}}"
-            />
-            <h1 class="card-title">{{project.title}}</h1>
-            <div class="card-content">
-                <p>{{project.description}}</p>
-            </div>
-        </a>
-    </div>
-    {% endfor %}
+    for project in sorted_projects | sort "priority" %} {% include card.html
+    url=project.url image=project.image title=project.title
+    description=project.description date="" %} {% endfor %}
 </section>

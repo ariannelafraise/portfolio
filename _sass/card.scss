@@ -7,7 +7,6 @@ $card-hover-color: rgba(0, 0, 0, 0.15);
 
 .cards-list {
     border-top: 0.25rem solid $card-border-color;
-    border-bottom: 0.25rem solid $card-border-color;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,8 +21,12 @@ $card-hover-color: rgba(0, 0, 0, 0.15);
     background-color: $card-color;
     transition: box-shadow 200ms ease-in-out;
     height: 100%;
+}
+
+.card > a {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .card:hover {
@@ -57,9 +60,9 @@ $card-hover-color: rgba(0, 0, 0, 0.15);
 }
 
 .card-content {
-    height: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
+    flex: 1;
 }
 
 @media screen and (min-width: 601px) {

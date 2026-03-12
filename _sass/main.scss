@@ -16,6 +16,11 @@ $card-hover-color: rgba(0, 0, 0, 0.15);
 }
 
 @font-face {
+    font-family: "EB Garamond";
+    src: url("../fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf");
+}
+
+@font-face {
     font-family: "Cormorant";
     src: url("../fonts/Cormorant/Cormorant-VariableFont_wght.ttf");
 }
@@ -25,14 +30,13 @@ $card-hover-color: rgba(0, 0, 0, 0.15);
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "EB Garamond", sans-serif;
     margin: 0;
-    background: #731f64;
     background: linear-gradient(
         145deg,
-        rgba(115, 31, 100, 1) 0%,
-        rgba(65, 69, 145, 1) 50%,
-        rgba(162, 60, 176, 1) 100%
+        rgb(115, 31, 100) 0%,
+        rgb(65, 69, 145) 50%,
+        rgb(162, 60, 176) 100%
     );
     background-repeat: no-repeat;
     background-attachment: fixed;

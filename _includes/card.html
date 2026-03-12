@@ -1,0 +1,12 @@
+<div class="card">
+    <a href="{{include.url | relative_url }}">
+        <img src="{{include.image | relative_url}}" alt="{{include.title}}" />
+        <h1 class="card-title">{{include.title}}</h1>
+        <div class="card-content">
+            <p>{{include.description}}</p>
+        </div>
+        {% if include.date != "" %}
+        <p class="card-footer">{{ include.date | date: "%Y-%m-%d" }}</p>
+        {% endif %}
+    </a>
+</div>

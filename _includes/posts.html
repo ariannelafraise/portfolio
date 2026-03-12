@@ -1,16 +1,7 @@
 <h1 class="section-title">BLOG</h1>
 
 <section class="cards-list">
-    {% for post in site.posts %}
-    <div class="card">
-        <a href="{{post.url | relative_url }}">
-            <img src="{{post.image | relative_url}}" alt="{{post.title}}" />
-            <h1 class="card-title">{{post.title}}</h1>
-            <div class="card-content">
-                <p>{{post.introduction}}</p>
-            </div>
-            <p class="card-footer">{{ post.date | date: "%Y-%m-%d" }}</p>
-        </a>
-    </div>
-    {% endfor %}
+    {% for post in site.posts %} {% include card.html url=post.url
+    image=post.image title=post.title description=post.description
+    date=post.date %} {% endfor %}
 </section>
