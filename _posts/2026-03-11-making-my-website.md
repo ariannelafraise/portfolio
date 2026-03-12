@@ -33,7 +33,7 @@ This was enough for the evening and I went to sleep.
 
 With this being done, all that was left to do was to tie everything up with some neat CSS. With my multiple years of working with it (which some might call years of suffering), this wasn't too long. I made everything responsive by using media queries and testing on each screen size. For example: this code adapts the behaviour of the cards list depending on the screen size. Small screens have only one column, while bigger screen can have multiple.
 
-```scss
+```css
 @media screen and (min-width: 601px) {
     .cards-list {
         display: grid;
@@ -67,7 +67,7 @@ Now that my website was done, I needed to deploy it! For this, I used GitHub Pag
 To set it up, I needed to set up a CI pipeline to build and upload my website. Thankfully, a lot of GitHub Actions templates are 
 available, including for Jekyll. The only problem was that the Setup Ruby step had an older release tag hard-coded into it that prevented me to use the correct Ruby version for my project, so I needed to update it from:
 
-```yml
+```yaml
 - name: Setup Ruby
   # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
   uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
@@ -79,7 +79,7 @@ available, including for Jekyll. The only problem was that the Setup Ruby step h
 
 to:
 
-```yml
+```yaml
 - name: Setup Ruby
   uses: ruby/setup-ruby@v1
   with:
