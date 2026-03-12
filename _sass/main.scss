@@ -49,6 +49,19 @@ a:visited {
     font-family: "Cormorant", sans-serif;
     font-size: 3em;
     text-align: center;
+    margin: 0;
+}
+
+#drawing-me {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 0;
+}
+
+#drawing-credit {
+    text-align: center;
+    color: rgba(230, 230, 230, 0.25);
 }
 
 @media screen and (min-width: 601px) {
@@ -62,5 +75,9 @@ a:visited {
     .section-title {
         margin-left: 2rem;
         font-size: 6em;
+    }
+
+    #drawing-me {
+        width: 20%;
     }
 }

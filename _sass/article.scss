@@ -7,7 +7,9 @@ $card-hover-color: rgba(0, 0, 0, 0.15);
 
 .article-container {
     border: 0.15rem solid $card-border-color;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     border-radius: 0.5rem;
@@ -33,6 +35,11 @@ $card-hover-color: rgba(0, 0, 0, 0.15);
 
 @media screen and (min-width: 1200px) {
     .article-container img {
-        max-width: 50%;
+        max-width: 100%;
+    }
+
+    .article-container {
+        margin-right: 20rem;
+        margin-left: 20rem;
     }
 }
