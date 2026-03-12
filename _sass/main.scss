@@ -52,14 +52,14 @@ a:visited {
     margin: 0;
 }
 
-#drawing-me {
+.drawing-me {
     display: block;
     margin: auto;
     width: 50%;
     padding: 0;
 }
 
-#drawing-credit {
+.drawing-credit {
     text-align: center;
     color: rgba(230, 230, 230, 0.25);
 }
@@ -77,7 +77,7 @@ a:visited {
         font-size: 6em;
     }
 
-    #drawing-me {
+    .drawing-me {
         width: 20%;
     }
 }
