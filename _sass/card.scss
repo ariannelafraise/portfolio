@@ -6,13 +6,12 @@ $card-color: rgba(230, 230, 230, 0.4);
 $card-hover-color: rgba(230, 230, 230, 0.15);
 
 @font-face {
-    font-family: "Cormorant";
-    src: url("../fonts/Cormorant/Cormorant-VariableFont_wght.ttf");
+    font-family: "Gelasio";
+    src: url("../fonts/Gelasio/Gelasio-VariableFont_wght.ttf");
 }
 
 .card * {
-    font-family: "Cormorant";
-    font-weight: bold;
+    font-family: "Gelasio";
 }
 
 .cards-list {
@@ -55,6 +54,7 @@ $card-hover-color: rgba(230, 230, 230, 0.15);
 
 .card h1 {
     font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .card-title {

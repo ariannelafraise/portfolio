@@ -11,8 +11,8 @@ $card-hover-color: rgba(230, 230, 230, 0.15);
 }
 
 @font-face {
-    font-family: "Cormorant";
-    src: url("../fonts/Cormorant/Cormorant-VariableFont_wght.ttf");
+    font-family: "Gelasio";
+    src: url("../fonts/Gelasio/Gelasio-VariableFont_wght.ttf");
 }
 
 #name {
@@ -32,9 +32,7 @@ nav ul {
 }
 
 .nav-item {
-    font-family: "Cormorant";
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-family: "Gelasio";
     text-align: center;
     margin-top: 0;
     margin-bottom: auto;
