@@ -1,9 +1,9 @@
-$primary-color: #e491c9;
-$primary-color-hover: #cf82b6;
-$foreground-color: #ffffff;
-$card-border-color: rgba(230, 230, 230, 0.1);
-$card-color: rgba(230, 230, 230, 0.15);
-$card-hover-color: rgba(0, 0, 0, 0.15);
+$primary-color: #fc5ab9;
+$primary-color-hover: #fc2aa5;
+$foreground-color: #333333;
+$card-border-color: rgba(230, 230, 230, 0.41);
+$card-color: rgba(230, 230, 230, 0.4);
+$card-hover-color: rgba(230, 230, 230, 0.15);
 
 @use "navigation";
 @use "card";
@@ -27,12 +27,8 @@ $card-hover-color: rgba(0, 0, 0, 0.15);
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
-    background: #4e1d57;
-    background: linear-gradient(
-        144deg,
-        rgba(78, 29, 87, 1) 0%,
-        rgba(40, 15, 43, 1) 100%
-    );
+    background: #2c2c2c;
+    background-image: linear-gradient(-225deg, #b6cee8 0%, #f578dc 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: $foreground-color;

@@ -9,7 +9,7 @@ description: "In march this year, I had the chance to participate in PolyPwn 202
 
 # PolyPwn 2026: CatLab
 
-In March this year, I had the chance to participate in PolyPwn 2026 at Polytechnique Montréal.
+In March this year, I had the chance to participate in [PolyPwn](https://pwn.polycyber.io/) 2026 at Polytechnique Montréal.
 Of all the challenges, CatLab was my favorite. It was a web challenge presenting you a not so secure web portal enabling the laboratory, which was the theme of the event, to conduct secret experiments relating to... cats? We are given the mission to compromise this web portal and get our hands on the confidential algorithm behind it.
 
 ![challenge]({{ "/assets/media/posts/polypwn2026-catlab/challenge.png" | relative_url }})

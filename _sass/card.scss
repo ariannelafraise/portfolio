@@ -1,12 +1,22 @@
-$primary-color: #e491c9;
-$primary-color-hover: #cf82b6;
-$foreground-color: #ffffff;
-$card-border-color: rgba(230, 230, 230, 0.1);
-$card-color: rgba(230, 230, 230, 0.15);
-$card-hover-color: rgba(0, 0, 0, 0.15);
+$primary-color: #fc5ab9;
+$primary-color-hover: #fc2aa5;
+$foreground-color: #333333;
+$card-border-color: rgba(230, 230, 230, 0.41);
+$card-color: rgba(230, 230, 230, 0.4);
+$card-hover-color: rgba(230, 230, 230, 0.15);
+
+@font-face {
+    font-family: "Cormorant";
+    src: url("../fonts/Cormorant/Cormorant-VariableFont_wght.ttf");
+}
+
+.card * {
+    font-family: "Cormorant";
+    font-weight: bold;
+}
 
 .cards-list {
-    border-top: 0.25rem solid $card-border-color;
+    border-top: 0.25rem solid $foreground-color;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,11 +25,12 @@ $card-hover-color: rgba(0, 0, 0, 0.15);
 }
 
 .card {
-    border: 0.15rem solid $card-border-color;
+    border: 0.1rem solid $card-border-color;
     border-radius: 0.5rem;
     overflow: hidden;
     background-color: $card-color;
     transition: box-shadow 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
     height: 100%;
 }
 
@@ -30,9 +41,10 @@ $card-hover-color: rgba(0, 0, 0, 0.15);
 }
 
 .card:hover {
-    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.15);
     background-color: $card-hover-color;
     transition: box-shadow 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
 }
 
 .card img {
@@ -43,20 +55,19 @@ $card-hover-color: rgba(0, 0, 0, 0.15);
 
 .card h1 {
     font-size: 1.5rem;
-    font-weight: normal;
 }
 
 .card-title {
     padding: 0.5rem 1rem 0.5rem 1rem;
     margin: 0;
-    border-bottom: 0.15rem solid $card-border-color;
+    border-bottom: 0.1rem solid $card-border-color;
 }
 
 .card-footer {
     padding: 0.5rem 1rem 0.5rem 1rem;
     margin: 0;
     margin-top: auto;
-    border-top: 0.15rem solid $card-border-color;
+    border-top: 0.1rem solid $card-border-color;
 }
 
 .card-content {
