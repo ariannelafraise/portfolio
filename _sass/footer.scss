@@ -14,6 +14,16 @@ footer p {
     text-align: center;
 }
 
+footer a,
+footer a:visited {
+    color: $foreground-color;
+}
+
+footer a:hover {
+    color: $primary-color-hover;
+    text-decoration: underline;
+}
+
 footer {
     margin-top: 10rem;
 }
