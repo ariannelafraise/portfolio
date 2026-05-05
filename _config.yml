@@ -1,6 +1,10 @@
 url: "https://arianne.dev"
 baseurl: "/"
 
+name: "Arianne's personal website"
+feed:
+  icon: /favicon.ico
+
 permalink: pretty
 
 collections:
