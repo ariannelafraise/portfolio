@@ -3,7 +3,7 @@ id: "october-os"
 title: "October Linux"
 description: "Arch-based Linux distribution."
 priority: 101
-image: assets/media/october-os/october-os.png
+image: assets/media/projects/october-os/october-os.png
 ---
 # October Linux
 
@@ -13,8 +13,8 @@ Unlike Arch Linux, which only offers a base system through manual installation, 
 This project is currently under development; we are aiming to release our first version very soon. 
 
 ## Pictures
-![desktop screenshot]({{"/assets/media/october-os/desktop.png" | relative_url}})
+![desktop screenshot]({{"/assets/media/projects/october-os/desktop.png" | relative_url}})
 
-![app launcher screenshot]({{"/assets/media/october-os/app-launcher.png" | relative_url}})
+![app launcher screenshot]({{"/assets/media/projects/october-os/app-launcher.png" | relative_url}})
 
-![lockscreen screenshot]({{"/assets/media/october-os/lockscreen.jpg" | relative_url}})
+![lockscreen screenshot]({{"/assets/media/projects/october-os/lockscreen.jpg" | relative_url}})

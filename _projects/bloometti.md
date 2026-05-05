@@ -3,9 +3,9 @@ id: bloometti
 name: Bloometti
 description: A Discord bot made with Discord.js to implement a levels system.
 priority: 1
-image: /assets/media/bloometti/thumbnail.jpg
+image: /assets/media/projects/bloometti/thumbnail.jpg
 ---
-![bloometti logo]({{"/assets/media/bloometti/bloometti.png" | relative_url}})
+![bloometti logo]({{"/assets/media/projects/bloometti/bloometti.png" | relative_url}})
 
 A Discord bot made with [Discord.js](https://discord.js.org/#/) that adds a levels system to Discord!
 It provides configuration through JSON files and the Mongo Express web-based admin interface for MongoDB.
@@ -14,7 +14,7 @@ Easy deployment is made possible through either Docker Compose or Kubernetes.
 [Github repository](https://github.com/ariannelafraise/Bloometti)
 
 ## In action
-![bloometti in action]({{"/assets/media/bloometti/in-action.png" | relative_url}})
+![bloometti in action]({{"/assets/media/projects/bloometti/in-action.png" | relative_url}})
 
 ## Commands
 ### /profile [user: @mention]

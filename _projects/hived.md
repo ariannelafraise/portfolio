@@ -3,7 +3,7 @@ id: "hived"
 title: "Hived"
 description: "Linux Audit Event Processing Framework."
 priority: 100
-image: /assets/media/hived/linux.png
+image: /assets/media/projects/hived/linux.png
 ---
 # Hived
 

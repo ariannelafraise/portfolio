@@ -27,11 +27,11 @@ $card-hover-color: rgba(0, 0, 0, 0.15);
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
+    background: #4e1d57;
     background: linear-gradient(
-        145deg,
-        rgb(115, 31, 100) 0%,
-        rgb(65, 69, 145) 50%,
-        rgb(162, 60, 176) 100%
+        144deg,
+        rgba(78, 29, 87, 1) 0%,
+        rgba(40, 15, 43, 1) 100%
     );
     background-repeat: no-repeat;
     background-attachment: fixed;

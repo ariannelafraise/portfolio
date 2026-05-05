@@ -75,16 +75,48 @@ $card-hover-color: rgba(0, 0, 0, 0.15);
 
 @media screen and (min-width: 1200px) {
     .cards-list {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
-        align-items: stretch;
     }
 }
 
 @media screen and (min-width: 2000px) {
     .cards-list {
-        display: grid;
         grid-template-columns: repeat(4, 1fr);
-        align-items: stretch;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+    .cards-list {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media screen and (min-width: 3000px) {
+    .cards-list {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media screen and (min-width: 3500px) {
+    .cards-list {
+        grid-template-columns: repeat(7, 1fr);
+    }
+}
+
+@media screen and (min-width: 4000px) {
+    .cards-list {
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+
+@media screen and (min-width: 4500px) {
+    .cards-list {
+        grid-template-columns: repeat(9, 1fr);
+    }
+}
+
+@media screen and (min-width: 5000px) {
+    .cards-list {
+        grid-template-columns: repeat(10, 1fr);
     }
 }
