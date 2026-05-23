@@ -1,11 +1,11 @@
 ---
 title: "Making My Website with Jekyll... The Day After Learning It"
 author: Arianne
-image: /assets/media/posts/making-my-website/making-my-website.png
+image: /assets/media/posts/making-my-website/making-my-website.jpg
 description: "I decided to pick it up on the way home, in the train after my day at university, with the step-by-step tutorial available on their website. The principles were immediatly familiar, since I had already implemented similar functionalities in the past, with Next.js. After quickly learning about how to use _includes and _layouts (which are somewhat similar to what you can do in React with components), I started making my own website."
 ---
 
-![making-my-website]({{"/assets/media/posts/making-my-website/making-my-website.png" | relative_url }})
+![making-my-website]({{"/assets/media/posts/making-my-website/making-my-website.jpg" | relative_url }})
 
 # Making My Website with Jekyll... The Day-Of Learning It
 
