@@ -2,7 +2,7 @@
 id: "shark-names-you"
 title: "Shark Names You"
 description: "A web application to help transgender individuals find a new name."
-priority: 4
+priority: 0
 image: assets/media/projects/shark-names-you/home-page.png
 ---
 # Shark Names You
