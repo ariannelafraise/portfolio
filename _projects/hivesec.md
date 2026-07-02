@@ -5,7 +5,7 @@ description: "Linux audit event processing framework."
 priority: 100
 image: /assets/media/projects/hivesec/hivesec.png
 ---
-![athack2026]({{ "/assets/media/projects/hivesec/hivesec-square.png" | relative_url }})
+![]({{ "/assets/media/projects/hivesec/hivesec.png" | relative_url }})
 
 [Github repository](https://github.com/ariannelafraise/hivesec)
 
