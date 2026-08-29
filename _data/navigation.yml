@@ -1,6 +1,6 @@
 - name: GitHub
   link: https://github.com/ariannelafraise
-- name: Projects
-  link: /projects/
-- name: Posts
-  link: /posts/
+#- name: Projects
+#  link: /projects/
+#- name: Posts
+#  link: /posts/
