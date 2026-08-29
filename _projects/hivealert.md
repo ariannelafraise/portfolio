@@ -2,7 +2,7 @@
 id: "hivealert"
 title: "HiveAlert"
 description: "HiveSec application that takes YAML rules to react to Auditd events."
-priority: 99
+priority: 98
 image: /assets/media/projects/hivealert/logo-full-darker-color-smaller.jpg
 ---
 ![]({{ "/assets/media/projects/hivealert/logo-full-darker-color-smaller.jpg" | relative_url }})

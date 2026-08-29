@@ -2,7 +2,7 @@
 id: "hivesec"
 title: "HiveSec"
 description: "Linux audit event processing framework."
-priority: 100
+priority: 99
 image: /assets/media/projects/hivesec/hivesec.png
 ---
 ![]({{ "/assets/media/projects/hivesec/hivesec.png" | relative_url }})
