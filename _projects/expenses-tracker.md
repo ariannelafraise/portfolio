@@ -11,23 +11,22 @@ Python Streamlit web application that enables me to import my bank's JSON transa
 
 It is secured using HTTPS and TLS client authentication through self-signed certificates.
 
-> [!NOTE]
-> The application's import feature was developed specifically for my 
-> bank's JSON format. However, it can be rewritten it to adapt it to 
-> other formats.
+NOTE: The application's import feature was developed specifically for my 
+bank's JSON format. However, it can be rewritten to adapt it to 
+other formats.
 
 [Github repository](https://github.com/ariannelafraise/expenses-tracker)
 
 ## Showcase
 
 ### Dashboard
-![](media/dashboard-1.png)
-![](media/dashboard-2.png)
+![dashboard screenshot]({{"assets/media/projects/expenses-tracker/dashboard-1.png" | relative_url}})
+![dashboard screenshot]({{"assets/media/projects/expenses-tracker/dashboard-2.png" | relative_url}})
 ### Viewing and tagging transactions
-![](media/transactions.png)
+![transactions pages screenshot]({{"assets/media/projects/expenses-tracker/transactions.png" | relative_url}})
 ### Importing transactions
-![](media/import.png)
+![import transactions page screenshot]({{"assets/media/projects/expenses-tracker/import.png" | relative_url}})
 ### Black listing keywords from transaction description to clean imports
-![](media/blacklist.png)
+![blacklist keywords page screenshot]({{"assets/media/projects/expenses-tracker/blacklist.png" | relative_url}})
 ### Managing tags
-![](media/tags.png)
+![manage tags page screenshot]({{"assets/media/projects/expenses-tracker/tags.png" | relative_url}})
