@@ -3,6 +3,9 @@ baseurl: "/"
 
 name: "Arianne's personal website"
 
+include:
+  - _headers
+
 permalink: pretty
 
 collections:
