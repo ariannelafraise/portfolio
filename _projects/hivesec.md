@@ -54,7 +54,7 @@ It subscribes as an Audispd plugin, receiving Linux audit events in real time. T
 ## Components
 
 ### hivesecd
-hivesecd is the daemon that is subscribed to Audispd as a plugin. Upon receiving Linux Audit events, it follows the Observer design pattern to distribute
+hivesecd is the daemon that is subscribed to Audispd as a plugin. Upon receiving Linux Audit events, it distributes
 them to all registered HiveSec applications.
 
 ### hivectl

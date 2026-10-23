@@ -9,8 +9,7 @@ image: assets/media/projects/october-os/october-os.png
 
 [Github Organization](https://github.com/october-os)
 
-Unlike Arch Linux, which only offers a base system through manual installation, October Linux provides a disk image featuring an installer written in Go, enabling a guided, fast, and automated setup. The installer deploys a complete system including a pre-configured desktop environment and essential applications to deliver an out-of-the-box experience, while remaining as faithful as possible to the minimalist philosophy of Arch.
-This project is currently under development; we are aiming to release our first version very soon. 
+A Linux distro I created (and currently maintain) with my boyfriend. All information is available on the [official website](http://octoberlinux.org).
 
 ## Pictures
 ![desktop screenshot]({{"/assets/media/projects/october-os/desktop.png" | relative_url}})

@@ -1,9 +1,4 @@
-$primary-color: #fc5ab9;
-$primary-color-hover: #fc2aa5;
-$foreground-color: #333333;
-$card-border-color: rgba(230, 230, 230, 0.41);
-$card-color: rgba(230, 230, 230, 0.4);
-$card-hover-color: rgba(230, 230, 230, 0.15);
+@use "_variables" as vars;
 
 @font-face {
     font-family: "Gelasio";
@@ -15,7 +10,7 @@ $card-hover-color: rgba(230, 230, 230, 0.15);
 }
 
 .cards-list {
-    border-top: 0.25rem solid $foreground-color;
+    border-top: 0.25rem solid vars.$foreground-color;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,10 +19,10 @@ $card-hover-color: rgba(230, 230, 230, 0.15);
 }
 
 .card {
-    border: 0.1rem solid $card-border-color;
-    border-radius: 0.5rem;
+    border: 0rem solid vars.$card-border-color;
+    border-radius: 0.75rem;
     overflow: hidden;
-    background-color: $card-color;
+    background-color: vars.$card-color;
     transition: box-shadow 200ms ease-in-out;
     transition: background-color 200ms ease-in-out;
     height: 100%;
@@ -40,8 +35,8 @@ $card-hover-color: rgba(230, 230, 230, 0.15);
 }
 
 .card:hover {
-    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.15);
-    background-color: $card-hover-color;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.058);
+    background-color: vars.$card-hover-color;
     transition: box-shadow 200ms ease-in-out;
     transition: background-color 200ms ease-in-out;
 }
@@ -60,14 +55,14 @@ $card-hover-color: rgba(230, 230, 230, 0.15);
 .card-title {
     padding: 0.5rem 1rem 0.5rem 1rem;
     margin: 0;
-    border-bottom: 0.1rem solid $card-border-color;
+    border-bottom: 0.1rem solid vars.$card-border-color;
 }
 
 .card-footer {
     padding: 0.5rem 1rem 0.5rem 1rem;
     margin: 0;
     margin-top: auto;
-    border-top: 0.1rem solid $card-border-color;
+    border-top: 0.25rem solid vars.$card-border-color;
 }
 
 .card-content {

@@ -1,19 +1,14 @@
-$primary-color: #fc5ab9;
-$primary-color-hover: #fc2aa5;
-$foreground-color: #333333;
-$card-border-color: rgba(230, 230, 230, 0.41);
-$card-color: rgba(230, 230, 230, 0.4);
-$card-hover-color: rgba(230, 230, 230, 0.15);
+@use "_variables" as vars;
 
 .article-container {
-    border: 0.15rem solid $card-border-color;
+    border: 0.15rem solid vars.$card-border-color;
     margin-top: 1rem;
     margin-right: 1rem;
     margin-left: 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     border-radius: 0.5rem;
-    background-color: $card-color;
+    background-color: vars.$card-color;
     text-align: justify;
 }
 
@@ -25,11 +20,11 @@ $card-hover-color: rgba(230, 230, 230, 0.15);
 
 .article-container a,
 .article-container a:visited {
-    color: $primary-color;
+    color: vars.$primary-color;
 }
 
 .article-container a:hover {
-    color: $primary-color-hover;
+    color: vars.$primary-color-hover;
     text-decoration: underline;
 }
 

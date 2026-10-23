@@ -1,9 +1,9 @@
 ---
 id: expenses-tracker
 name: Expenses Tracker
-description: Web application that enables me to import my bank's JSON transaction history and manage it through tags and analytics. Secured through HTTPS and TLS authentication.
-priority: 100
-image: /assets/media/projects/expenses-tracker/dashboard-2.png
+description: Web application that enables me to import my bank's JSON transaction history and manage it through tags and analytics.
+priority: 98
+image: /assets/media/projects/expenses-tracker/diamond.jpg
 ---
 # Expenses Tracker
 

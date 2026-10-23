@@ -1,9 +1,4 @@
-$primary-color: #fc5ab9;
-$primary-color-hover: #fc2aa5;
-$foreground-color: #333333;
-$card-border-color: rgba(230, 230, 230, 0.41);
-$card-color: rgba(230, 230, 230, 0.4);
-$card-hover-color: rgba(230, 230, 230, 0.15);
+@use "_variables" as vars;
 
 @font-face {
     font-family: "Tangerine";
@@ -40,16 +35,16 @@ nav ul {
 }
 
 .nav-item a:hover {
-    color: $primary-color;
+    color: vars.$primary-color-hover;
 }
 
 .nav-active-link,
 .nav-active-link:visited {
-    color: $primary-color;
+    color: vars.$primary-color;
 }
 
 .nav-active-link:hover {
-    color: $primary-color-hover;
+    color: vars.$primary-color-hover;
 }
 
 @media screen and (min-width: 601px) {

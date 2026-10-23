@@ -1,9 +1,4 @@
-$primary-color: #fc5ab9;
-$primary-color-hover: #fc2aa5;
-$foreground-color: #333333;
-$card-border-color: rgba(230, 230, 230, 0.41);
-$card-color: rgba(230, 230, 230, 0.4);
-$card-hover-color: rgba(230, 230, 230, 0.15);
+@use "_variables" as vars;
 
 @font-face {
     font-family: "Tangerine";
@@ -16,11 +11,11 @@ footer p {
 
 footer a,
 footer a:visited {
-    color: $foreground-color;
+    color: vars.$foreground-color;
 }
 
 footer a:hover {
-    color: $primary-color-hover;
+    color: vars.$primary-color-hover;
     text-decoration: underline;
 }
 
@@ -46,7 +41,7 @@ footer ul {
 }
 
 .footer-item a:hover {
-    color: $primary-color;
+    color: vars.$primary-color;
 }
 
 @media screen and (min-width: 601px) {

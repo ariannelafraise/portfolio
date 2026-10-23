@@ -2,16 +2,16 @@
 id: "shark-names-you"
 title: "Shark Names You"
 description: "A web application to help transgender individuals find a new name."
-priority: 0
-image: assets/media/projects/shark-names-you/home-page.png
+priority: 100
+image: assets/media/projects/shark-names-you/happy-shark-banner.jpg
 ---
 # Shark Names You
 
 A web application made to help transgender individuals choose a name. It uses data from
 [Données Québec](https://www.donneesquebec.ca/), therefore making it targeted towards french-speaking people.
-It is closed-source for security concerns.
+It is currently closed-source.
 
-**This application is in (very) early development. It isn't available to be used/tried yet.**
+**This application is not currently deployed.**
 
 ## Data
 The data used in this project comes from [Données Québec](https://www.donneesquebec.ca/). 
@@ -23,4 +23,6 @@ Links: [boy names](https://donneesquebec.ca/recherche/fr/dataset/banque-de-preno
 ## Pictures
 ![login page screenshot]({{"assets/media/projects/shark-names-you/login-page.png" | relative_url}})
 
-![home page screenshot]({{"assets/media/projects/shark-names-you/home-page.png" | relative_url}})
+![home page screenshot]({{"assets/media/projects/shark-names-you/dashboard.png" | relative_url}})
+
+![generator page screenshot]({{"assets/media/projects/shark-names-you/generator.png" | relative_url}})

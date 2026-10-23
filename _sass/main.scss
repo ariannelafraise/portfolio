@@ -1,14 +1,8 @@
-$primary-color: #fc5ab9;
-$primary-color-hover: #fc2aa5;
-$foreground-color: #333333;
-$card-border-color: rgba(230, 230, 230, 0.41);
-$card-color: rgba(230, 230, 230, 0.4);
-$card-hover-color: rgba(230, 230, 230, 0.15);
-
 @use "navigation";
 @use "card";
 @use "article";
 @use "footer";
+@use "_variables" as vars;
 
 @font-face {
     font-family: "Gelasio";
@@ -21,22 +15,22 @@ $card-hover-color: rgba(230, 230, 230, 0.15);
 }
 
 ::selection {
-    background: $primary-color;
+    background: vars.$primary-color;
 }
 
 body {
     font-family: "Gelasio", sans-serif;
     margin: 0;
     background: #2c2c2c;
-    background-image: linear-gradient(-225deg, #b6cee8 0%, #f578dc 100%);
+background-image: linear-gradient(to top, #9d73e2 0%, #faa2cb 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: $foreground-color;
+    color: vars.$foreground-color;
 }
 
 a,
 a:visited {
-    color: $foreground-color;
+    color: vars.$foreground-color;
     text-decoration: none;
 }
 
